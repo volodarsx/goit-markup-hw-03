@@ -108,7 +108,14 @@ body {
 
 .team-title {
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
+
+.team-carts {
+  display: inline-block;
+}
+
 .headline.team,
 .team-carts,
 .team.title {
@@ -184,11 +191,18 @@ body {
 .list-carts {
   text-align: center;
   box-sizing: content-box;
+  width: 270px;
+  height: 368px;
+}
+
+.list-carts + .list-carts {
+  margin-left: 30px;
 }
 
 .title-hero {
+  display: inline-block;
   align-items: center;
-  padding: 200px 452px 280px 452px;
+  padding: 280px auto;
 }
 
 .out-nav + .out-nav {

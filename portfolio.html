@@ -16,132 +16,145 @@
   <body>
     <!-- шапка-->
     <header class="header">
-      <a href="./index.html" lang="en" class="link logo"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="nav list">
-          <li>
-            <a href="./index.html" class="link">Студия</a>
+      <div class="conteiner conteiner-flex">
+        <a href="./index.html" lang="en" class="link logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="nav list conteiner-flex">
+            <li class="nav-link">
+              <a href="./index.html" class="link general-nav">Студия</a>
+            </li>
+            <li class="nav-link">
+              <a href="./portfolio.html" class="link current general-nav"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="" class="link general-nav">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- </div>
+      <div class="conteiner conteiner-address conteiner-flex"> -->
+        <ul class="contact list conteiner-flex">
+          <li class="out-nav">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" class="link current">Портфолио</a>
-          </li>
-          <li>
-            <a href="" class="link">Контакты</a>
+          <li class="out-nav">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contact list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Тіло-->
     <main class="filter-main">
       <!-- Герой-->
       <section>
-        <h1>Фильтер</h1>
-        <ul class="list">
-          <li>
-            <button type="button" class="filter">Все</button>
-          </li>
-          <li>
-            <button type="button" class="filter">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="filter">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="filter">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="filter">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list">
-          <li class="link-filter">
-            <a href="" class="link-filter">
-              <img src="./images/tehnokrak.jpg" alt="веб сайт" />
-              <h2 class="title-carts">Технокряк</h2>
-              <p class="carts-text">Веб-сайт</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/poster.jpg" alt="баскетбольний постер" />
-              <h2 class="title-carts">
-                Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h2>
-              <p class="carts-text">Дизайн</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/restourant.jpg" alt="логотип ресторана" />
-              <h2 class="title-carts">
-                Ресторан <span lang="en">Seafood</span>
-              </h2>
-              <p class="carts-text">Приложение</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/projekt_prime.jpg" alt="фото наушников" />
-              <h2 class="title-carts">Проект <span lang="en">Prime</span></h2>
-              <p class="carts-text">Маркетинг</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/projekt_boxes.jpg" alt="фото коробок" />
-              <h2 class="title-carts">Проект <span lang="en">Boxes</span></h2>
-              <p class="carts-text">Приложение</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img
-                src="./images/ins_borders.jpg"
-                alt="веб сайт Вдохновение не имеет границ"
-              />
-              <h2 class="title-carts" lang="en">Inspiration has no Borders</h2>
-              <p class="carts-text">Веб-сайт</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/lim_edit.jpg" alt="фото книги" />
-              <h2 class="title-carts">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
-              <p class="carts-text">Дизайн</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img src="./images/projekt_LAB.jpg" alt="логотип проекта лаб" />
-              <h2 class="title-carts">Проект <span lang="en">LAB</span></h2>
-              <p class="carts-text">Маркетинг</p></a
-            >
-          </li>
-          <li class="link-filter">
-            <a href="" class="link-filter"
-              ><img
-                src="./images/growing_buisness.jpg"
-                alt="страница с приложением"
-              />
-              <h2 class="title-carts" lang="en">Growing Business</h2>
-              <p class="carts-text">Приложение</p></a
-            >
-          </li>
-        </ul>
+        <div class="conteiner conteiner-flex">
+          <h1>Фильтер</h1>
+          <ul class="list">
+            <li>
+              <button type="button" class="filter">Все</button>
+            </li>
+            <li>
+              <button type="button" class="filter">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="filter">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="filter">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="filter">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list">
+            <li class="link-filter">
+              <a href="" class="link-filter">
+                <img src="./images/tehnokrak.jpg" alt="веб сайт" />
+                <h2 class="title-carts">Технокряк</h2>
+                <p class="carts-text">Веб-сайт</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img src="./images/poster.jpg" alt="баскетбольний постер" />
+                <h2 class="title-carts">
+                  Постер <span lang="en">New Orlean vs Golden Star</span>
+                </h2>
+                <p class="carts-text">Дизайн</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img src="./images/restourant.jpg" alt="логотип ресторана" />
+                <h2 class="title-carts">
+                  Ресторан <span lang="en">Seafood</span>
+                </h2>
+                <p class="carts-text">Приложение</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img src="./images/projekt_prime.jpg" alt="фото наушников" />
+                <h2 class="title-carts">Проект <span lang="en">Prime</span></h2>
+                <p class="carts-text">Маркетинг</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img src="./images/projekt_boxes.jpg" alt="фото коробок" />
+                <h2 class="title-carts">Проект <span lang="en">Boxes</span></h2>
+                <p class="carts-text">Приложение</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img
+                  src="./images/ins_borders.jpg"
+                  alt="веб сайт Вдохновение не имеет границ"
+                />
+                <h2 class="title-carts" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="carts-text">Веб-сайт</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img src="./images/lim_edit.jpg" alt="фото книги" />
+                <h2 class="title-carts">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="carts-text">Дизайн</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img
+                  src="./images/projekt_LAB.jpg"
+                  alt="логотип проекта лаб"
+                />
+                <h2 class="title-carts">Проект <span lang="en">LAB</span></h2>
+                <p class="carts-text">Маркетинг</p></a
+              >
+            </li>
+            <li class="link-filter">
+              <a href="" class="link-filter"
+                ><img
+                  src="./images/growing_buisness.jpg"
+                  alt="страница с приложением"
+                />
+                <h2 class="title-carts" lang="en">Growing Business</h2>
+                <p class="carts-text">Приложение</p></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- підвал)-->
