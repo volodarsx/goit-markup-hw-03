@@ -41,6 +41,7 @@ body {
 }
 
 .conteiner-flex {
+  max-width: 1200px;
   display: flex;
   align-items: center;
 }
@@ -188,6 +189,9 @@ body {
   margin-bottom: 94px;
 }
 
+.filter-carts {
+}
+
 .list-carts {
   text-align: center;
   box-sizing: content-box;
@@ -206,6 +210,8 @@ body {
 }
 
 .filter-conteiner {
+  display: inline-block;
+  align-items: center;
 }
 
 .footer-container {
@@ -240,9 +246,16 @@ body {
   /* background-color: aqua; */
 }
 
+.list-filter {
+  display: ;
+  margin-top: 56px;
+  align-items: baseline;
+  padding: 94px auto 50px;
+}
+
 .link-filter {
   background-color: var(--primari-bg-color);
-  width: 370px;
+  flex-basis: 370px;
 }
 
 .contact {
