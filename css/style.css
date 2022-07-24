@@ -173,7 +173,7 @@ body {
 /* link */
 
 .link,
-.link-filter {
+.link-filter-a {
   text-decoration: none;
   color: var(--background-color);
   line-height: 2;
@@ -192,7 +192,7 @@ body {
   text-align: center;
   box-sizing: content-box;
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
 }
 
 .list-carts + .list-carts {
@@ -203,6 +203,13 @@ body {
   display: inline-block;
   align-items: center;
   padding: 280px auto;
+}
+
+.filter-conteiner {
+}
+
+.footer-container {
+  padding-top: 60px;
 }
 
 .out-nav + .out-nav {
@@ -235,6 +242,7 @@ body {
 
 .link-filter {
   background-color: var(--primari-bg-color);
+  width: 370px;
 }
 
 .contact {
