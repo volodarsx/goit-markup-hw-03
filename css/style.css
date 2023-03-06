@@ -1,0 +1,299 @@
+:root {
+  --main-color: #757575;
+  --efect-color: #4d5ae5;
+  --h-color: #212121;
+  --background-color: #2e2f42;
+  --primari-bg-color: #ffffff;
+  --but-color: #f5f4fa;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+}
+.displey-non {
+  display: none;
+}
+
+.conteiner {
+  /* box-sizing: border-box; */
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+.conteiner-content {
+  box-sizing: content-box;
+}
+
+.conteiner-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* .conteiner-inline-flex {
+  display: inline-flex;
+} */
+
+.conteiner-address {
+  text-align: right;
+}
+
+.list {
+  list-style: none;
+}
+
+/* text */
+.text {
+  line-height: 1.71;
+  font-size: 14px;
+}
+.post-adres .text {
+  font-size: 14px;
+}
+
+.nav {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1.12;
+}
+
+.title,
+.subtitle,
+.logo,
+.button-hero {
+  color: var(--h-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.subtitle-team {
+  color: var(--h-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.title-carts {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.carts-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.team-title {
+  text-align: center;
+}
+.headline.team,
+.team-carts,
+.team.title {
+  text-align: center;
+  background-color: var(--primari-bg-color);
+}
+
+.subtitle.features {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero {
+  text-transform: uppercase;
+  background-color: var(--background-color);
+  font-size: 44px;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primari-bg-color);
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+}
+
+/* button */
+
+.button,
+.filter {
+  cursor: pointer;
+  background-color: var(--but-color);
+  color: var(--h-color);
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  border-radius: 4px;
+  font-family: "Roboto";
+}
+
+.button-hero {
+  font-family: inherit;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  background-color: var(--efect-color);
+  color: var(--primari-bg-color);
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #188ce8;
+}
+
+/* link */
+
+.link,
+.link-filter {
+  text-decoration: none;
+  color: var(--background-color);
+  line-height: 2;
+}
+
+.features-content {
+  width: 270px;
+  height: 101px;
+  /* margin-left: auto; */
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.list-carts {
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.title-hero {
+  font-size: 56px;
+  height: 600px;
+  align-items: center;
+  padding: 200px 452px 280px 452px;
+}
+
+.out-nav + .out-nav {
+  margin-left: 50px;
+}
+
+.img-work + .img-work {
+  margin-left: 30px;
+}
+
+.title-work {
+  text-align: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.section-work {
+  padding-bottom: 94px;
+}
+
+.general-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-link + .nav-link {
+  margin-left: 50px;
+  /* background-color: aqua; */
+}
+
+.link-filter {
+  background-color: var(--primari-bg-color);
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact .link {
+  color: var(--main-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--efect-color);
+}
+.logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.link.logo {
+  margin-right: 93px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  color: var(--efect-color);
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--background-color);
+}
+
+.address {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.post-adres {
+  color: var(--primari-bg-color);
+}
+
+.studio {
+  color: var(--primari-bg-color);
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--but-color);
+  color: var(--h-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--efect-color);
+  color: var(--primari-bg-color);
+}
+
+.link.current {
+  color: var(--efect-color);
+}
+
+.team {
+  background-color: var(--but-color);
+}
