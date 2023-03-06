@@ -1,10 +1,10 @@
 :root {
   --main-color: #757575;
   --efect-color: #4d5ae5;
-  --h-color: #212121;
+  --h-color: #2e2f42;
   --background-color: #2e2f42;
   --primari-bg-color: #ffffff;
-  --but-color: #f5f4fa;
+  --but-color: #f4f4fd;
 }
 h1,
 h2,
@@ -22,6 +22,9 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.14;
+}
+.non {
+  display: none;
 }
 .displey-non {
   display: none;
@@ -41,9 +44,16 @@ body {
 }
 
 .conteiner-flex {
+  max-width: 1440px;
   display: flex;
   align-items: center;
 }
+/* .conteiner-space-between {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  align-items: center;
+} */
 
 /* .conteiner-inline-flex {
   display: inline-flex;
@@ -54,9 +64,15 @@ body {
 }
 
 .list {
+  /* text-align: center; */
+  margin: auto 156px;
+  /* margin-bottom: 120px; */
   list-style: none;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 /* text */
 .text {
   line-height: 1.71;
@@ -77,7 +93,10 @@ body {
 .subtitle,
 .logo,
 .button-hero {
+  /* width: 169px;
+  height: 56px; */
   color: var(--h-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -108,7 +127,17 @@ body {
 
 .team-title {
   text-align: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
+.team-carts:nth-child(1) {
+  margin-left: 0;
+}
+.team-carts {
+  margin-left: 24px;
+  display: inline-block;
+}
+
 .headline.team,
 .team-carts,
 .team.title {
@@ -132,6 +161,9 @@ body {
   line-height: 1.36;
 }
 
+/* .conteiner-hero {
+  margin: 188px auto;
+} */
 /* button */
 
 .button,
@@ -154,6 +186,7 @@ body {
   cursor: pointer;
   background-color: var(--efect-color);
   color: var(--primari-bg-color);
+  padding: 16px 32px;
 }
 
 .button-hero:hover,
@@ -181,25 +214,43 @@ body {
   margin-bottom: 94px;
 }
 
+.filter-carts {
+}
+
 .list-carts {
   text-align: center;
   box-sizing: content-box;
+  width: 264px;
+  /* height: 368px; */
+}
+
+.list-carts + .list-carts {
+  margin-left: 30px;
 }
 
 .title-hero {
-  font-size: 56px;
-  height: 600px;
+  display: inline-block;
   align-items: center;
-  padding: 200px 452px 280px 452px;
+  padding: 188px auto;
+}
+
+.filter-conteiner {
+  display: inline-block;
+  align-items: center;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  pading-top: 12px;
 }
 
 .out-nav + .out-nav {
   margin-left: 50px;
 }
 
-.img-work + .img-work {
+/* .img-work + .img-work {
   margin-left: 30px;
-}
+} */
 
 .title-work {
   text-align: center;
@@ -208,7 +259,12 @@ body {
 }
 
 .section-work {
-  padding-bottom: 94px;
+  padding-bottom: 120px;
+  /* margin: auto 156px; */
+}
+
+.section-team {
+  padding-bottom: 120px;
 }
 
 .general-nav {
@@ -221,8 +277,18 @@ body {
   /* background-color: aqua; */
 }
 
+.list-filter {
+  display: ;
+  margin-top: 56px;
+  align-items: baseline;
+  padding: 94px auto 50px;
+  margin-right: 8px;
+}
+
 .link-filter {
   background-color: var(--primari-bg-color);
+  flex-basis: 370px;
+  border: 1px solid #e7e9fc;
 }
 
 .contact {
@@ -242,7 +308,7 @@ body {
   margin-bottom: 25px;
 }
 .link.logo {
-  margin-right: 93px;
+  /* margin-right: 93px; */
 
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -255,6 +321,7 @@ body {
 }
 
 .footer {
+  /* margin: 100px auto; */
   font-weight: 400;
   font-size: 14px;
   background-color: var(--background-color);
@@ -273,8 +340,17 @@ body {
 .studio {
   color: var(--primari-bg-color);
 }
+.filter-list {
+  /* width: 586px; */
+  padding: 96px 427px 72px 427px;
+  list-style: none;
+}
+.filter-item {
+  padding: 0 24px 48px 0;
+}
 
 .filter {
+  height: 48px;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -282,6 +358,11 @@ body {
   cursor: pointer;
   background-color: var(--but-color);
   color: var(--h-color);
+  padding: 12px 24px;
+  margin-left: 24px;
+}
+.filter:nth-child(0) {
+  margin-left: 0;
 }
 
 .filter:hover,
@@ -296,4 +377,15 @@ body {
 
 .team {
   background-color: var(--but-color);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.footer-container {
+  /* width: 264px;
+  height: 112px; */
+  padding: 100px 0 100px 156px;
 }
