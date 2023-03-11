@@ -32,11 +32,12 @@ body {
 
 .conteiner {
   /* box-sizing: border-box; */
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
+  display: block;
 }
 
 .conteiner-content {
@@ -44,7 +45,7 @@ body {
 }
 
 .conteiner-flex {
-  max-width: 1440px;
+  max-width: 1158px;
   display: flex;
   align-items: center;
 }
@@ -65,18 +66,20 @@ body {
 
 .list {
   /* text-align: center; */
-  margin: auto 156px;
+  /* margin: auto 156px; */
   /* margin-bottom: 120px; */
   list-style: none;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  /* padding: 25px 156px; */
+  display: block;
 }
 /* text */
 .text {
   line-height: 1.71;
-  font-size: 14px;
+  font-size: 16px;
 }
 .post-adres .text {
   font-size: 14px;
@@ -87,6 +90,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1.12;
+  /* padding: 25px 156px; */
 }
 
 .title,
@@ -103,16 +107,17 @@ body {
 }
 
 .subtitle {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.14;
 }
 
 .subtitle-team {
   color: var(--h-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.9;
   text-align: center;
+  padding-top: 32px;
 }
 
 .title-carts {
@@ -123,12 +128,12 @@ body {
 .carts-text {
   font-size: 16px;
   line-height: 1.9;
+  padding-bottom: 32px;
 }
 
 .team-title {
   text-align: center;
-  padding-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 72px;
 }
 .team-carts:nth-child(1) {
   margin-left: 0;
@@ -147,7 +152,14 @@ body {
 
 .subtitle.features {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
+}
+.features {
+  padding: 120px 0;
+  align-items: center;
+}
+.div-f {
+  /* padding: 120px 156px; */
 }
 
 .hero {
@@ -159,6 +171,7 @@ body {
   color: var(--primari-bg-color);
   letter-spacing: 0.06em;
   line-height: 1.36;
+  padding: 188px 0;
 }
 
 /* .conteiner-her{
@@ -193,7 +206,7 @@ body {
 .button-hero:focus {
   font-size: 16px;
   cursor: pointer;
-  background-color: #188ce8;
+  background-color: #404bbf;
 }
 
 /* link */
@@ -206,12 +219,12 @@ body {
 }
 
 .features-content {
-  width: 270px;
-  height: 101px;
-  /* margin-left: auto; */
-  align-items: center;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  /* width: 270px;
+  height: 101px; */
+  padding-right: 24px;
+}
+.features-content:nth-last-child(1) {
+  padding-right: 0;
 }
 
 .filter-carts {
@@ -225,13 +238,13 @@ body {
 }
 
 .list-carts + .list-carts {
-  margin-left: 30px;
+  margin-left: 24px;
 }
 
 .title-hero {
   display: inline-block;
   align-items: center;
-  padding: 188px auto;
+  /* padding: 188px 0; */
 }
 
 .filter-conteiner {
@@ -244,32 +257,36 @@ body {
   pading-top: 12px;
 }
 
-.out-nav + .out-nav {
-  margin-left: 50px;
+.out-nav {
+  margin-right: 40px;
 }
 
-/* .img-work + .img-work {
-  margin-left: 30px;
-} */
+.img-work {
+  padding-right: 24px;
+}
+.img-work:nth-last-child(1) {
+  padding-right: 0;
+}
 
 .title-work {
   text-align: center;
-  padding-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 72px;
+  /* padding-top: 94px;
+  margin-bottom: 50px; */
 }
 
 .section-work {
-  padding-bottom: 120px;
-  /* margin: auto 156px; */
+  padding: 120px 0;
+  align-items: center;
 }
 
-.section-team {
+/* .section-team {
   padding-bottom: 120px;
-}
+} */
 
 .general-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link + .nav-link {
@@ -304,8 +321,9 @@ body {
   color: var(--efect-color);
 }
 .logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  margin-right: 76px;
+  /* margin-top: 24px;
+  margin-bottom: 25px; */
 }
 .link.logo {
   /* margin-right: 93px; */
@@ -325,6 +343,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   background-color: var(--background-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .address {
@@ -342,11 +362,11 @@ body {
 }
 .filter-list {
   /* width: 586px; */
-  padding: 96px 427px 72px 427px;
+  text-align: container;
+  padding-top: 96px;
+  padding-bottom: 72px;
   list-style: none;
-}
-.filter-item {
-  padding: 0 24px 48px 0;
+  justify-content: center;
 }
 
 .filter {
@@ -377,15 +397,12 @@ body {
 
 .team {
   background-color: var(--but-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-.footer-container {
-  /* width: 264px;
-  height: 112px; */
-  padding: 100px 0 100px 156px;
 }
