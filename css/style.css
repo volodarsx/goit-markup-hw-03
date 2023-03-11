@@ -123,14 +123,19 @@ body {
 .title-carts {
   font-size: 18px;
   line-height: 2;
+  padding-top: 32px;
 }
 
 .carts-text {
   font-size: 16px;
   line-height: 1.9;
+
   padding-bottom: 32px;
 }
-
+.carts-text,
+.title-carts {
+  padding-left: 12px;
+}
 .team-title {
   text-align: center;
   padding-bottom: 72px;
@@ -216,6 +221,9 @@ body {
   text-decoration: none;
   color: var(--background-color);
   line-height: 2;
+}
+.link-filter {
+  display: block;
 }
 
 .features-content {
