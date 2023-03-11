@@ -302,12 +302,18 @@ body {
   margin-right: 8px;
 }
 
-.link-filter {
+.carts-filter {
   background-color: var(--primari-bg-color);
   flex-basis: 370px;
   border: 1px solid #e7e9fc;
 }
-
+.carts-filter {
+  margin-left: 24px;
+  margin-bottom: 48px;
+}
+.carts-filter:nth-child(1) {
+  margin-left: 0;
+}
 .contact {
   margin-left: auto;
 }
@@ -405,4 +411,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+.filter-main {
+  padding-bottom: 120px;
 }
