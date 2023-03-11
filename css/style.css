@@ -100,7 +100,7 @@ body {
   /* width: 169px;
   height: 56px; */
   color: var(--h-color);
-
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -242,9 +242,9 @@ body {
 }
 
 .title-hero {
-  display: inline-block;
+  /* display: inline-block; */
   align-items: center;
-  /* padding: 188px 0; */
+  padding-bottom: 48px;
 }
 
 .filter-conteiner {
